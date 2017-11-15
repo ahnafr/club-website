@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+footer{
+    position: fixed;
+    bottom:0px;
+    text-align: center;
+    left: 1%;
+    right: 1%;
+
+
+}
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a,h4 {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+/* Colors */
+.dblue{
+    color:#236e96;
+}
+.blue{
+    color:#15b2d3;
+}
+.lblue{
+    color:#5abccc;
+}
+.lorange{
+    color:#ffbe42;
+}
+.orange{
+    color:#ff7f00;
+}

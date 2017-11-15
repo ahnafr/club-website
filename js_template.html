@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html> 
+ <head>
+    <style type="text/css">
+    </style>
+</head>
+ <body>
+    <p align="center"> 
+      <canvas id="mycanvas"></canvas> 
+    </p>
+ </body> 
+ <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+ <script>
+    var CanvasWidth = 400;
+    var CanvasHeight = 400;
+    var sketchProc = function(processingInstance) {
+        with (processingInstance) {
+            size(CanvasWidth, CanvasHeight); 
+            frameRate(60);
+
+            // JavaScript programming environment starts here 
+
+
+
+            // JavaScript programming environment ends here 
+
+        }
+    };
+    var canvas = document.getElementById("mycanvas"); 
+    var processingInstance = new Processing(canvas, sketchProc); 
+ </script>
+</html>
+
